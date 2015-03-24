@@ -13,7 +13,19 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+
+#Java files
 *.jar
+*.class
+
+#mysql worbench temporales
+*.bak
+
+#Directorios java que no son necesarios
+target/
+dist/
+
+
 
 # Windows shortcuts
 *.lnk
@@ -42,3 +54,21 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+/java/DAOGenerados/OnlineShopIntegracionJDBCSoutND/target/
+/java/DAOGenerados/OnlineShopIntegracionJDBCSoutDD/target/
+/java/DAOGenerados/OnlineShopIntegracionJDBCLog4JDD/target/
+/java/EjemploLog4J/target/
+<<<<<<< HEAD
+/java/jpa/Ejemplo2JPACliente/target/
+/java/jpa/GUIFormExamples/nbproject/private/
+/java/jpa/ContactEditor/nbproject/private/
+/java/jpa/ContactEditor/build/
+=======
+>>>>>>> origin/master
+/java/jpa/EJBModule1/nbproject/private/
+/java/jpa/WebApplication1/nbproject/private/
+/java/jpa/EnterpriseApplication1/nbproject/private/
+/java/jpa/EnterpriseApplication1/EnterpriseApplication1-war/nbproject/private/
+/java/jpa/EnterpriseApplication1/EnterpriseApplication1-ejb/nbproject/private/
+/java/jpa/EnterpriseApplication1/EnterpriseApplication1-ejb/build/
+/java/jpa/EnterpriseApplication1/EnterpriseApplication1-war/build/
